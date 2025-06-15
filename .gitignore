@@ -1,0 +1,70 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+build/
+*.log
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# dotenv files (except example)
+.env
+.env.*.local
+!.env.example
+
+# Database files
+*.sqlite
+*.db
+database/schema.sql
+database/*.bak
+database/*.tmp
+
+# Local backup or temp
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.code-workspace
+
+# Test coverage
+coverage/
+*.lcov
+
+# Docker related
+docker-compose.override.yml
+.docker/
+*.pid
+
+# Frontend build (Vite)
+frontend/dist/
+frontend/.vite/
+
+# Backend compiled (if any)
+backend/dist/
+backend/build/
+backend/*.log
+
+# Misc
+*.tgz
+*.zip
+*.tar.gz
+*.tar
+
+# Ignore backups
+scripts/backup.sh~
+docs/*.pdf
